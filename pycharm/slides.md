@@ -80,6 +80,33 @@ Jemand der auf alles achtet, was ich gern vergesse
 
 ---
 
+# Mein unermüdlicher Helfer ...
+
+* Statische Code Analyse (IMHO unerreicht von anderen Tools)
+* Viele Quick Fixes für Konfigurationsprobleme, fehlende Pakete, Probleme im Code
+* Überall kann ich einfach suchen (Projektdateinamen, Edtor, Global, Scope, ...)
+* Gute Integration von allen gängigen Entwicklungsaktivitäten
+
+# Presenter Notes
+
+Code ausführen (Run script, Evaluate Expression)
+
+Compare Files / read diffs
+
+update/commit/push code from VCS (git, mercurial, svn, ...)
+
+create/switch branches/tags
+
+Local History / VCS history
+
+Vor Commit: Code Analyse / Import Optimierung / Todos checken
+
+Share project on Github
+
+Share code / console output as gist
+
+---
+
 ![bad](img/pair-programming-fail.jpg)
 
 # Presenter Notes
@@ -97,6 +124,7 @@ den ich aber getrost ignorieren kann **(Quick fix Warnung aus)**
 * [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
 * Terminal in Pycharm öffnet Pojektordner (gut mit [direnv](http://direnv.net/))
 * Strukturierungshilfen (Favoriten, Bookmarks, QuickLists)
+* TODOs werden gescannt und in eigenem Toolfenster angezeigt
 
 # Presenter Notes
 
@@ -159,6 +187,7 @@ Alles geht irgendwie (Plugins oder Textmate bundles)
 * File / Code / Live Templates
 * Frei konfigurierbare Maus/Keyboard Shortcuts für wirklich alles
 * Selbstkonfigurierbare Quicklists
+* Externe Dokumentationsquellen konfigurierbar
 
 [Plugins!](https://plugins.jetbrains.com/?pycharm)
 
@@ -170,44 +199,21 @@ Alles geht irgendwie (Plugins oder Textmate bundles)
 
 ---
 
-# Hilfe bei der täglichen Arbeit
-
-* Statische Code Analyse (IMHO unerreicht von anderen Tools)
-* Viele Quick Fixes für Konfigurationsprobleme, fehlende Pakete, Probleme im Code
-* Überall kann man einfach suchen (Projektdateinamen, Edtor, Global, Scope, ...)
-* Gute Integration von allen gängigen Entwicklungsaktivitäten
-
-# Presenter Notes
-
-Code ausführen (Run script, Evaluate Expression)
-
-Compare Files / read diffs
-
-update/commit/push code from VCS (git, mercurial, svn, ...)
-
-create/switch branches/tags
-
-Local History / VCS history
-
-Vor Commit: Code Analyse / Import Optimierung / Todos checken
-
-Share project on Github
-
-Share code / console output as gist
-
----
-
 ## Liebe zum Detail
 
 * ``Esc`` -> spring von überall zurück in den letzten aktiven Editor
-* ``Alt, Alt`` -> Toolfensterknöpfe einblenden
+* Switcher auf Steroiden (``Strg+Tab``, Recent Files: ``Strg+E``)
+* Totale Navigation! Goto ... / Quick ...
+* ``Alt+<-`` -> Navigate back
 * ``Shift, Shift`` -> Search Everywhere
 * ``Alt+Enter`` (über Fehler/Warnung/Intention) -> Quick Fix
+* ``Alt, Alt`` -> Toolfensterknöpfe einblenden
 * ``F1`` -> Terminal einblenden und wieder ausblenden
 * ``Strg+o`` | ``Strg+g`` -> Dateinterne Navigation
 * Toolfenster Navigation (z.B. ``Alt+<1-9>`` - frei konfigurierbar)
-* Editfenster on Steroids (Annotations / Code Folding / Code Lens / Changes)
+* Editfenster auf Steroiden (Annotations / Code Folding / Code Lens / Changes)
 * Verschiedene Darstellungsmodi (Presentation, Distraction Freee)
+* Code Vervollständigung (zwei Stufen) / Autoimport / optimize imports
 
 **CamelCase / slug_case sensitive Suche**
 
@@ -223,19 +229,9 @@ Optionen2: code folding
 
 ---
 
-# Bequemlichkeit
-
-* Code Vervollständigung
-* Code Navigation
-* Switcher (``Strg+Tab``, Recent Files: ``Strg+E``)
-* TODOs werden gescannt und in eigenem Toolfenster angezeigt
-* Schnelle Erreichbarkeit aller wichtigen Funktionen
-
----
-
 # Analyse / Fehlervermeidung / Optimierung
 
-* Code inspections mit Quick Fixes direkt im Editor
+* Zigtausend Code inspections mit Quick Fixes direkt im Editor
 * Guter Visueller Debugger
 * Visueller Profiler
 
@@ -247,3 +243,7 @@ Optionen2: code folding
 * Schöne Darstellung, mit Navigation zum betroffenen Code
 * Konkrete Testfunktion, Klasse, Modul vom Code aus starten
 * Auto rerun von Tests
+
+---
+
+# Danke :)
