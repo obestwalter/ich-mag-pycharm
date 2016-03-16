@@ -65,9 +65,14 @@
 
 * Productivity Guide
 * Help -> Find Action
-* Plugin Tip: [Key Promoter](https://plugins.jetbrains.com/plugin/1003)
 * Settings gut strukturiert mit Suchfunktion
-
+* [Plugins!](https://plugins.jetbrains.com/?pycharm)
+    * [Key Promoter](https://plugins.jetbrains.com/plugin/1003)
+    * [MultiMarkdown](http://vladsch.com/product/multimarkdown)
+    * [Bash Support](https://github.com/jansorg/BashSupport)
+    * [.ignore](https://plugins.jetbrains.com/plugin/7495?pr=pycharm)
+    * [Databse Navigator](https://confluence.jetbrains.com/display/CONTEST/Database+Navigator)
+**
 ---
 
 # Hilfe bekommen
@@ -83,6 +88,7 @@
     * Compare Files / read diffs
     * Vor Commit: Code Analyse / Import Optimierung / Todos checken
     * Share project on Github
+    * Share code / console output as gist
 * Überall kann man einfach suchen (Projektdateinamen, Edtor, Global, Scope, ...)
 
 ---
