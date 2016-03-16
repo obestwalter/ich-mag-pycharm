@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Righteous);
 
 body {
-  font: 14px "Pacifico", "Trebuchet MS", Verdana, sans-serif;
+  font: 16px "Righteous";
   background: #404040;
   padding: 0;
   margin: 0;
@@ -50,23 +50,17 @@ div.slide {
   margin-left: -400px;
   left: 50%;
   top: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, from(#bbd), to(#fff));
+  background: -webkit-gradient(linear, left bottom, left top, from(#5dab75), to(#326343));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bbd, #fff);
   -webkit-transition: margin 0.25s ease-in-out;
-  -moz-transition: margin 0.25s ease-in-out;
   -o-transition: margin 0.25s ease-in-out;
   border-top-left-radius: 20px;
-  -moz-border-radius-topleft: 20px;
   -webkit-border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  -moz-border-radius-topright: 20px;
   -webkit-border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  -moz-border-radius-bottomright: 20px;
   -webkit-border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
-  -moz-border-radius-bottomleft: 20px;
   -webkit-border-bottom-left-radius: 20px;
 }
 
@@ -87,16 +81,12 @@ body.expose div.slide {
   top: auto !important;
   margin: 10px !important;
   -webkit-transition: none;
-  -moz-transition: none;
   -o-transition: none;
-  -moz-transform: scale(.33, .33);
-  -moz-transform-origin: 0 0;
   -webkit-transform: scale(.33, .33);
   -webkit-transform-origin: 0 0;
   -o-transform: scale(.33, .33);
   -o-transform-origin: 0 0;
   -webkit-transition: none;
-  -moz-transition: none;
   -o-transition: none;
   cursor: pointer;
 }
@@ -104,7 +94,6 @@ body.expose div.slide {
 body.expose div.slide:hover {
   background: -webkit-gradient(linear, left bottom, left top, from(#bdd), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #bdd, #fff);
 }
 
 body.expose .slide-wrapper {
@@ -131,10 +120,7 @@ body.expose .slide.far-future {
 body.expose .slide.current {
   background: -webkit-gradient(linear, left bottom, left top, from(#ddb), to(#fff));
   background-color: #eee;
-  background: -moz-linear-gradient(bottom, #ddb, #fff);
   border: 16px solid #fff;
-  -moz-transform: scale(.315, .315);
-  -moz-transform-origin: 0 0;
   -webkit-transform: scale(.315, .315);
   -webkit-transform-origin: 0 0;
   -o-transform: scale(.315, .315);
@@ -147,8 +133,6 @@ body.presenter_view div.slide {
   display: inline;
   position: absolute;
   overflow: hidden;
-  -moz-transform: scale(.5, .5);
-  -moz-transform-origin: 0 0;
   -webkit-transform: scale(.5, .5);
   -webkit-transform-origin: 0 0;
   -o-transform: scale(.5, .5);
@@ -268,7 +252,6 @@ div.slide p {
 
 body.three-d div.slides {
   -webkit-transform: translateX(50px) scale(0.8) rotateY(10deg);
-  -moz-transform: translateX(50px) scale(0.8) rotateY(10deg);
   -o-transform: translateX(50px) scale(0.8) rotateY(10deg);
 }
 
@@ -397,7 +380,6 @@ li pre { margin-left: 0em; }
   background: -webkit-gradient(linear, top right, bottom right, from(#dde), to(#fff));
   -webkit-transition: margin 0.25s ease-in-out;
   background-color: #eee;
-  background: -moz-linear-gradient(right, #dde, #fff);
   border-right: 5px solid #ccd;
   z-index: 9999999;
   height: 100%;
@@ -410,7 +392,6 @@ li pre { margin-left: 0em; }
   padding: 10px 16px;
   overflow: auto;
   -webkit-transition: margin 0.2s ease-in-out;
-  -moz-transition: margin 0.2s ease-in-out;
   -o-transition: margin 0.2s ease-in-out;
 }
 
@@ -484,7 +465,6 @@ aside {
   padding: 10px;
   background: #ccc;
   border-radius: 10px;
-  -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
 }
   div.slide p.notes {
