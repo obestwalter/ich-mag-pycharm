@@ -12,8 +12,7 @@
 
 #  Was erwarte ich von einer IDE?
 
-.notes: bla
-.notes: blubb
+.notes: blr
 
 ---
 
@@ -23,15 +22,22 @@
 
 # Pair programming ohne pair programmer
 
-BILDEr
 
-.notes: 
-    * Jemand der den Code in und auswendig kennt
-    * jemand der jeden Syntax fehler sieht
-    * fehlende Parameter in format string
-    * hilft beim fixen
-    * kennt alle stdlib features
+![good](pair-programming.jpg)
 
+---
+
+![bad](pair-programming-fail.jpg)
+
+---
+
+# Presenter Notes
+
+* Jemand der den Code in und auswendig kennt
+* jemand der jeden Syntax fehler sieht
+* fehlende Parameter in format string
+* hilft beim fixen
+* kennt alle stdlib features
 
 ---
 

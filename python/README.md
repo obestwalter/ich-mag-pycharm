@@ -24,7 +24,7 @@
 
 # Projektideen
 
-[Virenscanner]h(ttps://thenerdcan.wordpress.com/2007/07/25/writing-a-virus-scanner-part-1-of-2/)
+[Virenscanner](ttps://thenerdcan.wordpress.com/2007/07/25/writing-a-virus-scanner-part-1-of-2/)
 
 # Fancy
 

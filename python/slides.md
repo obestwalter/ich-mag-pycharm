@@ -1,26 +1,4 @@
-# Nicht die Schlange!1!!
-
-![monty](monty-python.jpg)
-
----
-
-# Overview
-
-Generate HTML5 slideshows from markdown, ReST, or textile.
-
 ![python](http://i.imgur.com/bc2xk.png)
-
-Landslide is primarily written in Python, but it's themes use:
-
-- HTML5
-- Javascript
-- CSS
-
----
-
-# Code Sample
-
-Landslide supports code snippets
 
     !python
     def log(self, message, level='notice'):
@@ -32,6 +10,8 @@ Landslide supports code snippets
 
 ---
 
-# Some other stuff
+# Nicht die Schlange!1!!
 
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+![monty](monty-python.jpg)
+
+---
