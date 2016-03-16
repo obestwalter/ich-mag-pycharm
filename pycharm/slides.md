@@ -4,7 +4,7 @@
 
 ![lden](img/hackers-den.jpg)
 
---------------------------------
+---
 
 #  Jetbrains PyCharm
 
@@ -40,7 +40,7 @@ Muss ich während der Entwicklung selten verlassen
 
 ![bad](img/multiple-cursors.gif)
 
-Geht aber auch mit [ideavim](https://confluence.jetbrains.com/display/PYH/Configuring+PyCharm+to+work+as+a+Vim+editor)
+Geht aber auch ... (siehe später in Plugins)
 
 # Presenter Notes
 
@@ -54,7 +54,7 @@ Eine IDE ist was anderes als ein Text Editor
 
 Programmieren ist auch was anderes als Text editieren
 
-**Ich will einen Pedanten mit Lexokonwissen haben, der mir beim Tippen hilft**
+**Ich will einen Pedanten mit Lexikonwissen haben, der mir beim Tippen hilft**
 
 ---
 
@@ -88,8 +88,6 @@ den ich aber getrost ignorieren kann **(Quick fix Warnung aus)**
 
 ---
 
-<!--.fx: fullImage-->
-
 ![ordnung](img/ordnung.jpg)
 
 * Projekt Interpreter
@@ -98,11 +96,11 @@ den ich aber getrost ignorieren kann **(Quick fix Warnung aus)**
 * Zum Projekt gehörige Datenbanken im Projekt
 * [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
 * Terminal in Pycharm öffnet Pojektordner (gut mit [direnv](http://direnv.net/))
-
+* Strukturierungshilfen (Favoriten, Bookmarks, QuickLists)
 
 # Presenter Notes
 
- Projektorientiert
+**Projektorientiert**
 
 Meine Art zu Arbeiten ist eher Projektorientiert
 
@@ -114,62 +112,88 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 
 ## Unterstützt meine Frameworks und Tools
 
-[Teilweise nur Professional Edition](https://www.jetbrains.com/help/pycharm/5.0/languages-and-frameworks.html)
-
 * Flask
-* sqlalchemy
-* Foundation
-* vagrant
+* SQLalchemy
+* Zurb Foundation
+* Vagrant
 * Docker
+* Bequemer Datenbankzugriff auf postgres, mysql, slite, ...
+* [uvm.](https://www.jetbrains.com/help/pycharm/5.0/languages-and-frameworks.html)
+
+*(Teilweise nur Professional Edition)*
 
 ---
 
-### formate, Formate, FORMATE
+# formate, Formate, FORMATE!1!!
 
 * Python
-* SQL
-* Direkter Datenbankzugriff
-* Javascript
-* CSS / SCSS / LESS
+* sh
+* .ignore
 * HTML
-* YAML
-* JSON
-* Jinja2
-* Bash
-* Markdown (sehr gut mit Multimarkdown)
-* restructuredText
-* Ruby (Vagrantfiles) -> textmate bundle
+* JSON / YAML
+* Javascript / CoffeScript
+* CSS / SCSS / LESS
+* Jinja2 / Mako / Django Templates
+* SQL (alle gebrächlichen Dialekte)
+* Markdown **(Multimarkdown)** / restructuredText / AsciiDoc
+* Ruby 
 
+Alles geht irgendwie (Plugins oder Textmate bundles)
 
-## Erlernbarkeit und Konfigurierbarkeit
-
-* Productivity Guide
-* Help -> Find Action
-* Settings gut strukturiert mit Suchfunktion
-* [Plugins!](https://plugins.jetbrains.com/?pycharm)
-    * [Key Promoter](https://plugins.jetbrains.com/plugin/1003)
-    * [MultiMarkdown](http://vladsch.com/product/multimarkdown)
-    * [Bash Support](https://github.com/jansorg/BashSupport)
-    * [.ignore](https://plugins.jetbrains.com/plugin/7495?pr=pycharm)
-    * [Databse Navigator](https://confluence.jetbrains.com/display/CONTEST/Database+Navigator)
-**
 ---
 
-# Hilfe bekommen
+# Erlernbarkeit 
 
+* Productivity Guide
+* ``Help -> Find Action``
+* Settings gut strukturiert mit Volltextsuche
 * [Sehr gute Dokumentation](https://www.jetbrains.com/pycharm/documentation/)
-* Statische Code Analyse (MMn unerreicht von anderen Tools)
+
+---
+
+#  Konfigurierbarkeit
+
+* Layout der Toolbars (Floating, Docked, Pinned, viele Details anpassbar)
+* Optionen direkt in Find Action / Search Everywhere anpassen 
+* Alle Farben gut anpassbar / Farbenblindenmodus / Darcula Theme!1!!
+* File / Code / Live Templates
+* Frei konfigurierbare Maus/Keyboard Shortcuts für wirklich alles
+* Selbstkonfigurierbare Quicklists
+
+[Plugins!](https://plugins.jetbrains.com/?pycharm)
+
+* [Key Promoter](https://plugins.jetbrains.com/plugin/1003)
+* [MultiMarkdown](http://vladsch.com/product/multimarkdown)
+* [Bash Support](https://github.com/jansorg/BashSupport)
+* [.ignore](https://plugins.jetbrains.com/plugin/7495?pr=pycharm)
+* [ideavim](https://confluence.jetbrains.com/display/PYH/Configuring+PyCharm+to+work+as+a+Vim+editor)
+
+---
+
+# Hilfe bei der täglichen Arbeit
+
+* Statische Code Analyse (IMHO unerreicht von anderen Tools)
 * Viele Quick Fixes für Konfigurationsprobleme, fehlende Pakete, Probleme im Code
-* Gute Integration mit Entwicklungsaktivitäten
-    * Code ausführen (Run script, Evaluate Expression)
-    * update/commit/push code from VCS (git, mercurial, svn, ...)
-    * create/switch branches/tags
-    * Local History / VCS history
-    * Compare Files / read diffs
-    * Vor Commit: Code Analyse / Import Optimierung / Todos checken
-    * Share project on Github
-    * Share code / console output as gist
 * Überall kann man einfach suchen (Projektdateinamen, Edtor, Global, Scope, ...)
+* Gute Integration von allen gängigen Entwicklungsaktivitäten
+
+# Presenter Notes
+
+Code ausführen (Run script, Evaluate Expression)
+
+Compare Files / read diffs
+
+update/commit/push code from VCS (git, mercurial, svn, ...)
+
+create/switch branches/tags
+
+Local History / VCS history
+
+Vor Commit: Code Analyse / Import Optimierung / Todos checken
+
+Share project on Github
+
+Share code / console output as gist
 
 ---
 
@@ -180,13 +204,12 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 * ``Shift, Shift`` -> Search Everywhere
 * ``Alt+Enter`` (über Fehler/Warnung/Intention) -> Quick Fix
 * ``F1`` -> Terminal einblenden und wieder ausblenden
-* CamelCase/slug_case sensitive Suche
-* Optionen direkt in Find Action / Search Everywhere anpassen 
+* ``Strg+o`` | ``Strg+g`` -> Dateinterne Navigation
 * Toolfenster Navigation (z.B. ``Alt+<1-9>`` - frei konfigurierbar)
-* Toolfenster konfigurierbar (Floating, Docked, Pinned)
-* Favoriten, Bookmarks, QuickLists
-* Modes (Presentation, Distraction Freee)
-* Darcula Theme!1!!
+* Editfenster on Steroids (Annotations / Code Folding / Code Lens / Changes)
+* Verschiedene Darstellungsmodi (Presentation, Distraction Freee)
+
+**CamelCase / slug_case sensitive Suche**
 
 # Presenter Notes
 
@@ -205,12 +228,8 @@ Optionen2: code folding
 * Code Vervollständigung
 * Code Navigation
 * Switcher (``Strg+Tab``, Recent Files: ``Strg+E``)
-* TODOs werden gescannt und in Toolfenster angezeigt
+* TODOs werden gescannt und in eigenem Toolfenster angezeigt
 * Schnelle Erreichbarkeit aller wichtigen Funktionen
-* Individualisierung 
-    * Frei konfigurierbare Maus/Keyboard Shortcuts für alles
-    * selbstkonfigurierbare Quicklists
-* File / Code / Live Templates
 
 ---
 
