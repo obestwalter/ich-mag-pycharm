@@ -1,43 +1,51 @@
-# FIXME -> bullet points to notes; more images
+#  Kurze Tour durch mein Entwicklerwohnzimmer
 
-# Kurze Tour durch mein Entwicklerwohnzimmer
+![lden](img/hackers-den.jpg)
 
----
+--------------------------------
 
 #  Jetbrains PyCharm
 
-![pycharm](pycharm-logo.png)
+![pycharm](img/pycharm-logo.png)
 
 ---
 
 #  Was erwarte ich von einer IDE?
 
-.notes: blr
 
 ---
 
-![wollmilchsau](wollmilchsau.jpg)
+![wollmilchsau](img/wollmilchsau.jpg)
 
 ---
 
 # Pair programming ohne pair programmer
 
 
-![good](pair-programming.jpg)
-
----
-
-![bad](pair-programming-fail.jpg)
-
----
+![good](img/pair-programming.jpg)
 
 # Presenter Notes
 
-* Jemand der den Code in und auswendig kennt
-* jemand der jeden Syntax fehler sieht
-* fehlende Parameter in format string
-* hilft beim fixen
-* kennt alle stdlib features
+Jemand der den Code in und auswendig kennt
+
+jemand der jeden Syntax fehler sieht
+
+fehlende Parameter in format string
+
+hilft beim fixen
+
+kennt alle stdlib features
+
+---
+
+![bad](img/pair-programming-fail.jpg)
+
+# Presenter Notes
+
+den ich aber getrost ignorieren kann
+
+der mich nicht tyrannisiert
+
 
 ---
 
@@ -57,7 +65,7 @@ pair programmer
 
 # Passt zu meiner Art zu Arbeiten
 
-![ordnung](ordnung.jpg)
+![ordnung](img/ordnung.jpg)
 
 ---
 

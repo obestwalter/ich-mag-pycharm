@@ -1,7 +1,7 @@
 # Ideen
 
 * [pymove3d](http://pymove3d.pysv.org/)
-* Pixar films
+* [Edx](https://github.com/edx/edx-platform)
 * [used gravitational waves research](https://pbs.twimg.com/media/Ca8jlVIWcAUmeP8.png)
 * python koans
 * Alles ist Text
