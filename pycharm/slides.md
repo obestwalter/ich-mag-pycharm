@@ -1,3 +1,5 @@
+# FIXME -> bullet points to notes; more images
+
 # Kurze Tour durch mein Entwicklerwohnzimmer
 
 ---
@@ -10,9 +12,40 @@
 
 #  Was erwarte ich von einer IDE?
 
+.notes: bla
+.notes: blubb
+
 ---
 
 ![wollmilchsau](wollmilchsau.jpg)
+
+---
+
+# Pair programming ohne pair programmer
+
+BILDEr
+
+.notes: 
+    * Jemand der den Code in und auswendig kennt
+    * jemand der jeden Syntax fehler sieht
+    * fehlende Parameter in format string
+    * hilft beim fixen
+    * kennt alle stdlib features
+
+
+---
+
+Mehr als ein Text Editor. Programmieren ist ja auch viel mehr als nur Text editieren.
+
+---
+
+Was erwart ich nicht?
+
+* Super sophistiv
+
+---
+
+pair programmer
 
 ---
 
@@ -99,6 +132,9 @@
 * ``Alt, Alt`` -> Toolfensterknöpfe einblenden
 * ``Shift, Shift`` -> Search Everywhere
 * ``F1`` -> Terminal einblenden und wieder ausblenden
+* CamelCase / slug_case aware search everywhere 
+    * monty-python.jpg -> mp
+    * pycharm/wollmilchsa.jpg -> upy/wo
 * Optionen direkt in Find Action / Search Everywhere anpassen 
     * line numbers
     * code folding

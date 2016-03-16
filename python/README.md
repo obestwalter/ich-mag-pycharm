@@ -14,6 +14,8 @@
 * Der beste Weg programmieren zu lernen, ist ein Problem oder eine Idee zu haben (z.B. bei mir im Studium generierung von Definitionen für Sensoren)
 * Pycharm Educational Edition
 * https://xkcd.com/353/
+* Python lädt zu Introspektion ein (dir, locals, globals, introspect)
+* onlinepythontutor
 
 # Open Source
 
