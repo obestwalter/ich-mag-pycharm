@@ -1,93 +1,5 @@
-/**
- * Django style
- *
- * Backgrounds:
- * Green1: #94DA3A;
- * Green2: #487858;
- * Green3: #326343;
- * Green4: #235033;
- * Green5: #092d1f;
- *
- * Titles:
- * Dark: #063233;
- * GreenPastel: #7bb09c;
- * Yellow: #ffe971;
- *
- */
-@import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(https://fonts.googleapis.com/css?family=Righteous);
-body {
-  font: 18px "Pacifico";
-  background: #235033;
-}
-
-pre, code {
-  font-family: Monaco, monospace;
-}
-
-pre {
-  background: #326343;
-  color: #fff;
-  padding: 1em;
-  border-radius: 10px;
-}
-
-p code, li code {
-  color: #487858;
-}
-
-div.slide strong {
-  color: #326343;
-}
-
-div.slide {
-  background: #092d1f;
-}
-
-div.slide .inner {
-  background: #fff;
-  border-radius: 13px;
-  width: 880px;
-  margin: 0 auto;
-}
-
 section {
   min-height: 590px;
-}
-
-header:not(:only-child) {
-  font-family: "Pacifico";
-  color: #fff;
-}
-
-aside {
-  font-family: "Righteous";
-  color: #092d1f;
-  bottom: 16px;
-}
-
-div.slide.home header {
-  display: none;
-}
-
-div.slide.home section {
-  margin-top: 55px;
-}
-
-div.slide.home img {
-  width: 80%;
-  text-align: center;
-}
-
-div.slide.title header {
-  font-family: "Pacifico";
-  background: #092d1f;
-  border-radius: 10px;
-}
-
-div.slide.title header h1 {
-  font-family: "Pacifico";
-  color: #fff;
 }
 
 div.slide blockquote p {
@@ -111,9 +23,7 @@ div.slide.fullimage img {
   max-width: 96%;
   max-height: 78%;
   border-radius: 4px;
-  /*-moz-box-shadow: 0px 7px 15px #aaa;
   -webkit-box-shadow: 0px 7px 15px #aaa;
-  box-shadow: 0px 7px 15px #aaa;*/
 }
 
 div.slide p.cite {
@@ -181,10 +91,12 @@ p.cop {
   background: #092d1f;
 }
 
-p.cop strong {
-  color: ##092d1f;
+p.cop {
+  font-size: 80%;
+  text-align: right;
+  color: #91f9b0;
 }
 
 p.cop a {
-  color: #ffe971;
+  text-decoration: underline;
 }

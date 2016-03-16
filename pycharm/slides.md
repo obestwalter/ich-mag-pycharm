@@ -1,5 +1,7 @@
 #  Kurze Tour durch mein Entwicklerwohnzimmer
 
+.fx: fullImage
+
 ![lden](img/hackers-den.jpg)
 
 --------------------------------
