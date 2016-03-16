@@ -82,6 +82,7 @@
     * Local History / VCS history
     * Compare Files / read diffs
     * Vor Commit: Code Analyse / Import Optimierung / Todos checken
+    * Share project on Github
 * Überall kann man einfach suchen (Projektdateinamen, Edtor, Global, Scope, ...)
 
 ---

@@ -1,6 +1,8 @@
 # Ideen
 
-* das zeug von pkoppatz und so
+* [pymove3d](http://pymove3d.pysv.org/)
+* Pixar films
+* [used gravitational waves research](https://pbs.twimg.com/media/Ca8jlVIWcAUmeP8.png)
 * python koans
 * Alles ist Text
 * Programmieren ist eine soziale Aktivität
