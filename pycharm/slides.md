@@ -8,35 +8,75 @@
 
 #  Jetbrains PyCharm
 
+.fx: fullImage
+
 ![pycharm](img/pycharm-logo.png)
 
 ---
 
-#  Was erwarte ich von einer IDE?
+#  Was erwartet ihr von einer IDE?
 
+# Presenter Notes
+
+Gibt's da Meinungen bei den Zuhörern?
 
 ---
+
+.fx: fullImage
 
 ![wollmilchsau](img/wollmilchsau.jpg)
 
+# Presenter Notes
+
+**Eierlegende Wollmilchsau**
+
+Muss ich während der Entwicklung selten verlassen
+
 ---
 
-# Pair programming ohne pair programmer
+#  Was ich **nicht** erwarte ...
 
+---
+
+![bad](img/multiple-cursors.gif)
+
+Geht aber auch mit [ideavim](https://confluence.jetbrains.com/display/PYH/Configuring+PyCharm+to+work+as+a+Vim+editor)
+
+# Presenter Notes
+
+**Vim-artige Textmanipulation**
+
+Ich komme eher vom Klavier und spiele lieber Accorde als Licks
+
+Symbolmanipulationen sind mir wichtiger (z.B. Name und Move Refactoring)
+
+Eine IDE ist was anderes als ein Text Editor
+
+Programmieren ist auch was anderes als Text editieren
+
+**Ich will einen Pedanten mit Lexokonwissen haben, der mir beim Tippen hilft**
+
+---
 
 ![good](img/pair-programming.jpg)
 
 # Presenter Notes
 
-Jemand der den Code in und auswendig kennt
+**Pair programming ohne pair programmer**
 
-jemand der jeden Syntax fehler sieht
+Jemand der auf alles achtet, was ich gern vergesse
 
-fehlende Parameter in format string
+... der jeden Syntaxfehler sieht
 
-hilft beim fixen
+... der PEP8 Fehler sofort sieht
 
-kennt alle stdlib features
+... der mich auf fehlende Parameter in format strings hinweist
+
+... der alle Feinheiten der verschiedenen Python Versionen kennt
+
+... der weiß wo alle Funktionen, Klassen und Module sind
+
+... der mir beim Fixen der Fehler hilft
 
 ---
 
@@ -44,24 +84,7 @@ kennt alle stdlib features
 
 # Presenter Notes
 
-den ich aber getrost ignorieren kann
-
-der mich nicht tyrannisiert
-
-
----
-
-Mehr als ein Text Editor. Programmieren ist ja auch viel mehr als nur Text editieren.
-
----
-
-Was erwart ich nicht?
-
-* Super sophistiv
-
----
-
-pair programmer
+den ich aber getrost ignorieren kann **(Quick fix Warnung aus)**
 
 ---
 
@@ -144,21 +167,28 @@ pair programmer
 
 ## Liebe zum Detail
 
-* ``Esc`` springt immer zurück in den Editor
+* ``Esc`` -> spring von überall zurück in den letzten aktiven Editor
 * ``Alt, Alt`` -> Toolfensterknöpfe einblenden
 * ``Shift, Shift`` -> Search Everywhere
+* ``Alt+Enter`` (über Fehler/Warnung/Intention) -> Quick Fix
 * ``F1`` -> Terminal einblenden und wieder ausblenden
-* CamelCase / slug_case aware search everywhere 
-    * monty-python.jpg -> mp
-    * pycharm/wollmilchsa.jpg -> upy/wo
+* CamelCase/slug_case sensitive Suche
 * Optionen direkt in Find Action / Search Everywhere anpassen 
-    * line numbers
-    * code folding
 * Toolfenster Navigation (z.B. ``Alt+<1-9>`` - frei konfigurierbar)
 * Toolfenster konfigurierbar (Floating, Docked, Pinned)
 * Favoriten, Bookmarks, QuickLists
 * Modes (Presentation, Distraction Freee)
 * Darcula Theme!1!!
+
+# Presenter Notes
+
+Suche1: monty-python.jpg -> mp
+
+Suche2: pycharm/wollmilchsa.jpg -> upy/wo
+
+Optionen1: line numbers
+
+Optionen2: code folding
 
 ---
 

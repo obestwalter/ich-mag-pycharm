@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700);
 
 body {
   font: 16px "Righteous";
@@ -186,7 +187,7 @@ body.presenter_view div#current_presenter_notes {
 }
 
 body.presenter_view div#current_presenter_notes section {
-  font-family: "Righteous";
+  font: 24px "Righteous";
   color: black;
   text-shadow: rgba(0, 0, 0, 0.2) 0 2px 5px;
   display: block;
@@ -194,9 +195,9 @@ body.presenter_view div#current_presenter_notes section {
     position: relative;
     background-color: #fffeff;
     height: 120px;
-    margin-right: 30px;
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
     padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
@@ -207,7 +208,7 @@ body.presenter_view div#current_presenter_notes section p {
 }
 
 body.presenter_view div#current_presenter_notes h1 {
-    font-size: 50%;
+    font: 18px "Righteous";
     display: block;
 }
 
@@ -325,7 +326,7 @@ a {
 }
 
 pre, code, tt {
-  font-family: Monaco, Consolas, 'Bitstream Vera Sans Mono', 'Lucida Console', FreeMono, Courier, monospace;
+  font-family: "Roboto Mono";
 }
 
 pre, .gist .gist-file .gist-data {
