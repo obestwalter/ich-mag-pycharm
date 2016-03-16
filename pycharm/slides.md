@@ -88,19 +88,27 @@ den ich aber getrost ignorieren kann **(Quick fix Warnung aus)**
 
 ---
 
-# Passt zu meiner Art zu Arbeiten
+<!--.fx: fullImage-->
 
 ![ordnung](img/ordnung.jpg)
 
----
-
-## Projektorientiert
-
-* [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
-* Projektstruktur (source root, excludes, templates)
 * Projekt Interpreter
+* Projektstruktur (source root, excludes, templates)
 * Mehrere Repositories in einem Projekt (synchronisierbare branches)
-* Datenbankdetails
+* Zum Projekt gehörige Datenbanken im Projekt
+* [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
+* Terminal in Pycharm öffnet Pojektordner (gut mit [direnv](http://direnv.net/))
+
+
+# Presenter Notes
+
+ Projektorientiert
+
+Meine Art zu Arbeiten ist eher Projektorientiert
+
+Z.B. Wechsel in den Projektordner aktiviert automatisch Interpreter
+
+In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 
 ---
 
