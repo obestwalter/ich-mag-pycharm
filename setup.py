@@ -9,11 +9,11 @@ python setup.py --help-commands
 
 -> pip wraps setup.py stuff + more (e.g. uninstall)
 """
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='ollislider',
-    packages=find_packages(),
+    packages=['ollislider'],
     entry_points={
         'console_scripts': ["ollislider=ollislider.cli:main"]
     }
