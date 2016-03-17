@@ -18,7 +18,7 @@ In vier Bildern erklärt, wo ich herkomme, weil das eventuell auch veranschaulic
 
 # Presenter Notes
 
-Endlose listings abtippen, ohne Code Vervollständigung und Syntax Highlighting auf einer Tastatur mit superschrägem Layout und einem halben Meter Hub ... kein Spaß 
+Endlose listings abtippen, ohne Code Vervollständigung und Syntax Highlighting auf einer Tastatur mit superschrägem Layout und einem halben Meter Hub ... kein Spaß.
 
 ---
 
@@ -28,7 +28,7 @@ Endlose listings abtippen, ohne Code Vervollständigung und Syntax Highlighting 
 
 # Presenter Notes
 
-schon besser ... und mit Omikron Basic und dem mitgelieferten Editor hat programmieren langsam Spaß gemacht ...
+Schon besser ... und mit Omikron Basic und dem mitgelieferten Editor hat programmieren langsam Spaß gemacht ...
 
 ---
 
@@ -38,7 +38,7 @@ schon besser ... und mit Omikron Basic und dem mitgelieferten Editor hat program
 
 # Presenter Notes
 
-zig verschiedene PC Tastaturen, natürlich alle mit anderen Layouts
+Zig verschiedene PC Tastaturen, natürlich alle mit anderen Layouts
 
 ---
 
@@ -48,7 +48,7 @@ zig verschiedene PC Tastaturen, natürlich alle mit anderen Layouts
 
 # Presenter Notes
 
-Gaaanz viele verschiedene schreckliche Tastaturen und grauenvolle Programmierumgebungen
+Gaaanz viele verschiedene schreckliche Tastaturen und grauenvolle Programmierumgebungen.
 
 => Habe früh gelernt tippen zu hassen.
 
@@ -321,14 +321,3 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 ---
 
 #  Danke :)
-
----
-
-#  Fragen oder Wünsche für den Python Vortrag?
-
-* Warum und wie arbeitest du (bei Avira) mit Python?
-* Gibt es auch noch andere Einsatzgebiete wo sich Python anbietet?
-* Wo eignet sich eine andere Sprache vielleicht besser?
-* Werkzeuge eines Softwareentwickelts (z.B. Git)
-* Wie kann man nach dem Kurs weiter machen? (Kurse, OpenSource Projekte etc.)
-* Vorstellung von Avira 
