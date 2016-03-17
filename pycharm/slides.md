@@ -153,10 +153,8 @@ Jemand der auf alles achtet, was ich gern vergesse
 * **Inspections** - statische Code Analyse (IMHO unerreicht von anderen Tools)
 * Viele Quick Fixes für Konfigurationsprobleme, fehlende Pakete, Probleme im Code
 * Überall kann ich einfach suchen (Projektdateinamen, Edtor, Global, Scope, ...)
-* Suchen und Ersetzen auf Steroiden (Dateintern und Dateiübergreifend)
 * Gute Integration von allen gängigen Entwicklungsaktivitäten
-* Guter Visueller Debugger
-* Visueller Profiler
+* Guter Visueller Debugger / Profiler
 
 ## Automatische Tests
 
@@ -195,6 +193,10 @@ den ich aber auch ignorieren kann, wenn es nötig ist **(Quick fix Warnung aus)*
 ---
 
 #  Und PyCharm kann das?
+
+# Presenter Notes
+
+Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 
 ---
 
@@ -241,10 +243,6 @@ Optionen2: code folding
 * Settings gut strukturiert mit Volltextsuche
 * [Sehr gute Dokumentation](https://www.jetbrains.com/pycharm/documentation/)
 
-# Presenter Notes
-
-**Vor allem mag ich Liebe zum Detail**
-
 ---
 
 ## Unterstützt meine Frameworks und Tools
@@ -274,8 +272,7 @@ Optionen2: code folding
 * SQL (alle gebrächlichen Dialekte)
 * Markdown **(Multimarkdown)** / restructuredText / AsciiDoc
 
-
-Alles geht irgendwie (Plugins oder Textmate bundles)
+**Alles geht irgendwie (Plugins oder Textmate bundles)**
 
 ---
 
@@ -323,6 +320,10 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 
 ---
 
+#  Danke :)
+
+---
+
 #  Fragen oder Wünsche für den Python Vortrag?
 
 * Warum und wie arbeitest du (bei Avira) mit Python?
@@ -331,7 +332,3 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 * Werkzeuge eines Softwareentwickelts (z.B. Git)
 * Wie kann man nach dem Kurs weiter machen? (Kurse, OpenSource Projekte etc.)
 * Vorstellung von Avira 
-
----
-
-# Danke :)
