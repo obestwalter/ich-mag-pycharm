@@ -1,16 +1,17 @@
 #  Kurze Tour durch mein Entwicklerwohnzimmer
 
-.fx: fullImage
-
 ![lden](img/hackers-den.jpg)
 
 ---
 
-#  Jetbrains PyCharm IDE (**kein** Texteditor)
+#  Jetbrains PyCharm
 
-.fx: fullImage
+.fx: larger
 
 ![pycharm](img/pycharm-logo.png)
+
+
+Integerated Development Environment
 
 ---
 
@@ -99,11 +100,10 @@ Symbolmanipulationen sind mir wichtiger (z.B. Name und Move Refactoring)
 Eine IDE ist was anderes als ein Text Editor
 
 Programmieren ist auch was anderes als Text editieren
+
 ---
 
 #  Was ich erwarte ...
-
-.fx: fullImage
 
 ![wollmilchsau](img/wollmilchsau.jpg)
 
