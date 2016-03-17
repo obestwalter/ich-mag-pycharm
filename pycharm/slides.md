@@ -6,7 +6,7 @@
 
 ---
 
-#  Jetbrains PyCharm
+#  Jetbrains PyCharm IDE (**kein** Texteditor)
 
 .fx: fullImage
 
@@ -14,23 +14,69 @@
 
 ---
 
-#  Was erwartet ihr von einer IDE?
+#  IDE vs Texteditor ...
 
 # Presenter Notes
 
-Gibt's da Meinungen bei den Zuhörern?
+Es gibt verschiedene Typen (grob: VIM und Emacs Fraktionen)
+
+NACHTEILE
+
+Information Overflow Gefahr
+
+Langsamer (Start und manchmal Bedienung)
+
+(vielleicht) hindert am Lernen der eigentlichen Technologie
+
+VORTTEILE
+
+Die erzähl ich dann gleich aus meiner Sicht
 
 ---
 
-.fx: fullImage
-
-![wollmilchsau](img/wollmilchsau.jpg)
+#  Wer hat Erfahrungen mit IDEs?
 
 # Presenter Notes
 
-**Eierlegende Wollmilchsau**
+Was erwartet ihr von einer IDE?
 
-Muss ich während der Entwicklung selten verlassen
+---
+
+# Kurz über meine Computersozialisation ...
+
+---
+
+#  1986
+
+![c64](img/c64-small.png)
+
+# Presenter Notes
+
+Gaaanz viele verschiedene schreckliche Tastaturen
+
+Habe früh gelernt tippen zu hassen.
+
+---
+
+#  1989
+
+![atari](img/atari-1040st-keyboard.jpg)
+
+---
+
+#  1990er
+
+![windows](img/windows-pc.jpg)
+
+---
+
+#  =>
+
+![knot](img/finger-knot.jpg)
+
+# Presenter Notes
+
+Ich wünsche mir eine IDE, wo ich einfach so lange auf Code vervollständigen klicke, bis das Programm fertig ist 
 
 ---
 
@@ -53,10 +99,19 @@ Symbolmanipulationen sind mir wichtiger (z.B. Name und Move Refactoring)
 Eine IDE ist was anderes als ein Text Editor
 
 Programmieren ist auch was anderes als Text editieren
+---
+
+#  Was ich erwarte ...
+
+.fx: fullImage
+
+![wollmilchsau](img/wollmilchsau.jpg)
 
 # Presenter Notes
 
-**Wichtig ist, dass das Tools einem das Lernen seiner Verwendung erleichtert**
+**Eierlegende Wollmilchsau**
+
+Muss ich während der Entwicklung selten verlassen
 
 ---
 
@@ -210,8 +265,8 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 
 # formate, Formate, FORMATE!1!!
 
-* Python
-* sh
+* Python / Ruby
+* sh / Powershell
 * .ignore
 * HTML
 * JSON / YAML
@@ -220,7 +275,7 @@ In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
 * Jinja2 / Mako / Django Templates
 * SQL (alle gebrächlichen Dialekte)
 * Markdown **(Multimarkdown)** / restructuredText / AsciiDoc
-* Ruby 
+
 
 Alles geht irgendwie (Plugins oder Textmate bundles)
 
