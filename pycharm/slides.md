@@ -128,7 +128,7 @@ Muss ich während der Entwicklung selten verlassen
 
 # Presenter Notes
 
-zwei Sachen weiß ich: Kommentare sind Bugs und Pait Programming
+zwei Sachen weiß ich: Kommentare sind Bugs und Pair Programming
 
 **Pair programming ohne pair programmer**
 
