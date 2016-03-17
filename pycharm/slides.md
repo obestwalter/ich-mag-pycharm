@@ -128,6 +128,8 @@ Muss ich während der Entwicklung selten verlassen
 
 # Presenter Notes
 
+zwei Sachen weiß ich: Kommentare sind Bugs und Pait Programming
+
 **Pair programming ohne pair programmer**
 
 Jemand der auf alles achtet, was ich gern vergesse
