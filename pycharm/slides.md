@@ -8,7 +8,7 @@
 
 # Presenter Notes
 
-In vier Bildern erklärt, wo ich herkomme, weil das eventuell auch veranschulicht, warum ich IDEs so gerne mag
+In vier Bildern erklärt, wo ich herkomme, weil das eventuell auch veranscahulicht, warum ich IDEs so gerne mag.
 
 ---
 
@@ -56,7 +56,7 @@ Gaaanz viele verschiedene schreckliche Tastaturen und grauenvolle Programmierumg
 
 ---
 
-#  Ich bin ich kein Fan von Vim
+#  Ich bin kein Fan von Vim
 
 ![vim](img/vim-editing.gif)
 
