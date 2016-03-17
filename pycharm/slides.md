@@ -4,24 +4,93 @@
 
 ---
 
-#  Jetbrains PyCharm
+# Meine Computersozialisation ...
 
-.fx: larger
+# Presenter Notes
 
-![pycharm](img/pycharm-logo.png)
-
-
-Integerated Development Environment
+Kurz erklären, wo ich herkomme, weil das eventuell auch erklärt, warum ich IDEs so gerne mag
 
 ---
 
-#  IDE vs Texteditor ...
+#  1986
+
+![c64](img/c64-small.png)
+
+# Presenter Notes
+
+Endlose listings abtippen, ohne Code Vervollständigung und Syntax Highlighting auf einer Tastatur mit superschrägem Layout und einem halben Meter Hub ... kein Spaß 
+
+---
+
+#  1989
+
+![atari](img/atari-1040st-keyboard.jpg)
+
+# Presenter Notes
+
+schon besser ... und mit Omikron Basic und dem mitgelieferten Editor hat programmieren langsam Spaß gemacht ...
+
+---
+
+#  1990er
+
+![windows](img/windows-pc.jpg)
+
+# Presenter Notes
+
+zig verschiedene PC Tastaturen, natürlich alle mit anderen Layouts
+
+---
+
+#  =>
+
+![knot](img/finger-knot.jpg)
+
+# Presenter Notes
+
+Gaaanz viele verschiedene schreckliche Tastaturen und grauenvolle Programmierumgebungen
+
+=> Habe früh gelernt tippen zu hassen.
+
+=> **Ich wünsche mir eine IDE, wo ich einfach so lange auf Code vervollständigen klicke, bis das Programm fertig ist** 
+
+---
+
+#  Ich bin ich kein Fan von Vim
+
+![vim](img/vim-editing.gif)
 
 # Presenter Notes
 
 Es gibt verschiedene Typen (grob: VIM und Emacs Fraktionen)
 
-NACHTEILE
+Vim ist eher was für Sologitarristen, die gerne schnelle Licks spielen
+
+Ich komme eher vom Klavier und spiele lieber Accorde als Licks
+
+Symbolmanipulationen sind mir wichtiger (z.B. Name und Move Refactoring)
+
+Eine IDE ist was anderes als ein Text Editor
+
+Programmieren ist auch was anderes als Text editieren
+
+**Geht aber auch ... (siehe später in Plugins)**
+
+http://www.viemu.com/a-why-vi-vim.html
+
+---
+
+# Darum mag ich PyCharm
+
+.fx: larger
+
+![pycharm](img/pycharm-logo.png)
+
+# Presenter Notes
+
+**Warnung**
+
+NACHTEILE VON IDES
 
 Information Overflow Gefahr
 
@@ -43,66 +112,6 @@ Was erwartet ihr von einer IDE?
 
 ---
 
-# Kurz über meine Computersozialisation ...
-
----
-
-#  1986
-
-![c64](img/c64-small.png)
-
-# Presenter Notes
-
-Gaaanz viele verschiedene schreckliche Tastaturen
-
-Habe früh gelernt tippen zu hassen.
-
----
-
-#  1989
-
-![atari](img/atari-1040st-keyboard.jpg)
-
----
-
-#  1990er
-
-![windows](img/windows-pc.jpg)
-
----
-
-#  =>
-
-![knot](img/finger-knot.jpg)
-
-# Presenter Notes
-
-Ich wünsche mir eine IDE, wo ich einfach so lange auf Code vervollständigen klicke, bis das Programm fertig ist 
-
----
-
-#  Was ich **nicht** erwarte ...
-
----
-
-![bad](img/multiple-cursors.gif)
-
-Geht aber auch ... (siehe später in Plugins)
-
-# Presenter Notes
-
-**Vim-artige Textmanipulation**
-
-Ich komme eher vom Klavier und spiele lieber Accorde als Licks
-
-Symbolmanipulationen sind mir wichtiger (z.B. Name und Move Refactoring)
-
-Eine IDE ist was anderes als ein Text Editor
-
-Programmieren ist auch was anderes als Text editieren
-
----
-
 #  Was ich erwarte ...
 
 ![wollmilchsau](img/wollmilchsau.jpg)
@@ -115,52 +124,7 @@ Muss ich während der Entwicklung selten verlassen
 
 ---
 
-# Erlernbarkeit 
-
-* ``Help -> Find Action``
-* Productivity Guide
-* Settings gut strukturiert mit Volltextsuche
-* [Sehr gute Dokumentation](https://www.jetbrains.com/pycharm/documentation/)
-
-# Presenter Notes
-
-**Vor allem mag ich Liebe zum Detail**
-
----
-
-## Liebe zum Detail
-
-* ``Esc`` -> spring von überall zurück in den letzten aktiven Editor
-* Switcher auf Steroiden (``Strg+Tab``, Recent Files: ``Strg+E``)
-* Totale Navigation! Goto ... / Quick ...
-* ``Alt+<-`` -> Navigate back
-* ``Shift, Shift`` -> Search Everywhere
-* ``Alt+Enter`` (über Fehler/Warnung/Intention) -> Quick Fix
-* ``Alt, Alt`` -> Toolfensterknöpfe einblenden
-* ``F1`` -> Terminal einblenden und wieder ausblenden
-* ``Strg+o`` | ``Strg+g`` -> Dateinterne Navigation
-* Toolfenster Navigation (z.B. ``Alt+<1-9>`` - frei konfigurierbar)
-* Editfenster auf Steroiden (Annotations / Code Folding / Code Lens / Changes)
-* Verschiedene Darstellungsmodi (Presentation, Distraction Freee)
-* Code Vervollständigung (zwei Stufen) / Autoimport / optimize imports
-
-**CamelCase / slug_case sensitive Suche**
-
-# Presenter Notes
-
-Suche1: monty-python.jpg -> mp
-
-Suche2: pycharm/wollmilchsa.jpg -> upy/wo
-
-Optionen1: line numbers
-
-Optionen2: code folding
-
-**Und ich brauche an meiner Seite einen Pedanten mit Lexikonwissen, der mir beim Tippen hilft**
-
----
-
-![good](img/pair-programming.jpg)
+# Kennt jemand [Extreme Programming?](https://de.wikipedia.org/wiki/Extreme_Programming) 
 
 # Presenter Notes
 
@@ -182,7 +146,7 @@ Jemand der auf alles achtet, was ich gern vergesse
 
 ---
 
-# Mein unermüdlicher Helfer ...
+# Pair Programming ohne Partner
 
 * **Inspections** - statische Code Analyse (IMHO unerreicht von anderen Tools)
 * Viele Quick Fixes für Konfigurationsprobleme, fehlende Pakete, Probleme im Code
@@ -218,7 +182,9 @@ Share code / console output as gist
 
 ---
 
-![bad](img/pair-programming-fail.jpg)
+# Kann man auch mal ausschalten
+
+![dilbert](img/pair-python.png)
 
 # Presenter Notes
 
@@ -226,26 +192,56 @@ den ich aber auch ignorieren kann, wenn es nötig ist **(Quick fix Warnung aus)*
 
 ---
 
-![ordnung](img/ordnung.jpg)
+#  Und PyCharm kann das?
 
-* Projekt Interpreter
-* Projektstruktur (source root, excludes, templates)
-* Mehrere Repositories in einem Projekt (synchronisierbare branches)
-* Zum Projekt gehörige Datenbanken im Projekt
-* [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
-* Terminal in Pycharm öffnet Pojektordner (gut mit [direnv](http://direnv.net/))
-* Strukturierungshilfen (Favoriten, Bookmarks, QuickLists)
-* TODOs werden gescannt und in eigenem Toolfenster angezeigt
+---
+
+## Liebe zum Detail
+
+* ``Esc`` -> spring von überall zurück in den letzten aktiven Editor
+* ``Alt+<-`` -> Navigate back
+* ``Alt, Alt`` -> Toolfensterknöpfe einblenden
+* Totale Navigation! ``Shift, Shift`` ``Strg+o`` / ``Strg+g`` / Goto ... / Quick ... 
+* Code Vervollständigung (zwei Stufen) / Autoimport / optimize imports
+* Quick Fix! ``Alt+Enter`` (über Fehler/Warnung/Intention) 
+* Toolfenster Navigation ist Toggle (z.B. Terminal)
+* Editfenster / Suchfenster / Commitffenster /Switcher auf Steroiden
+* Editfenster auf Steroiden (Annotations / Code Folding / Code Lens / Changes)
+* Suchen und Ersetzen Fenster auf Steroiden (mit Preview)
+* Verschiedene Darstellungsmodi (Presentation, Distraction Freee)
+
+**CamelCase / slug_case sensitive Suche und Filter**
 
 # Presenter Notes
 
-**Projektorientiert**
+**STEROIDE**
 
-Meine Art zu Arbeiten ist eher Projektorientiert
+``Strg+Tab`` / ``Strg+E`` / ``Strg+k``
 
-Z.B. Wechsel in den Projektordner aktiviert automatisch Interpreter
+**SUCHE**
 
-In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
+Suche1: monty-python.jpg -> mp
+
+Suche2: pycharm/wollmilchsa.jpg -> upy/wo
+
+Optionen1: line numbers
+
+Optionen2: code folding
+
+**Und ich brauche an meiner Seite einen Pedanten mit Lexikonwissen, der mir beim Tippen hilft**
+
+---
+
+# Erlernbarkeit 
+
+* ``Help -> Find Action``
+* Productivity Guide
+* Settings gut strukturiert mit Volltextsuche
+* [Sehr gute Dokumentation](https://www.jetbrains.com/pycharm/documentation/)
+
+# Presenter Notes
+
+**Vor allem mag ich Liebe zum Detail**
 
 ---
 
@@ -299,6 +295,40 @@ Alles geht irgendwie (Plugins oder Textmate bundles)
 | [Bash Support](https://github.com/jansorg/BashSupport)
 | [.ignore](https://plugins.jetbrains.com/plugin/7495?pr=pycharm)
 | [ideavim](https://confluence.jetbrains.com/display/PYH/Configuring+PyCharm+to+work+as+a+Vim+editor)
+
+---
+
+![ordnung](img/ordnung.jpg)
+
+* Projekt Interpreter
+* Projektstruktur (source root, excludes, templates)
+* Mehrere Repositories in einem Projekt (synchronisierbare branches)
+* Zum Projekt gehörige Datenbanken im Projekt
+* [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
+* Terminal in Pycharm öffnet Pojektordner (gut mit [direnv](http://direnv.net/))
+* Strukturierungshilfen (Favoriten, Bookmarks, QuickLists)
+* TODOs werden gescannt und in eigenem Toolfenster angezeigt
+
+# Presenter Notes
+
+**Projektorientiert**
+
+Meine Art zu Arbeiten ist eher Projektorientiert
+
+Z.B. Wechsel in den Projektordner aktiviert automatisch Interpreter
+
+In PyCharm: Terminal öffnet Projektordner und aktiviert richtigen Interpreter
+
+---
+
+#  Fragen oder Wünsche für den Python Vortrag?
+
+* Warum und wie arbeitest du (bei Avira) mit Python?
+* Gibt es auch noch andere Einsatzgebiete wo sich Python anbietet?
+* Wo eignet sich eine andere Sprache vielleicht besser?
+* Werkzeuge eines Softwareentwickelts (z.B. Git)
+* Wie kann man nach dem Kurs weiter machen? (Kurse, OpenSource Projekte etc.)
+* Vorstellung von Avira 
 
 ---
 
