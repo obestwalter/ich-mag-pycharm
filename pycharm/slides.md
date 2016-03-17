@@ -8,7 +8,7 @@
 
 # Presenter Notes
 
-In vier Bildern erklärt, wo ich herkomme, weil das eventuell auch veranscahulicht, warum ich IDEs so gerne mag.
+In vier Bildern erklärt, wo ich herkomme, weil das eventuell auch veranschaulicht, warum ich IDEs so gerne mag.
 
 ---
 
