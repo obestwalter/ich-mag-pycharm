@@ -205,7 +205,7 @@ Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 
 ---
 
-## Liebe zum Detail - Navigation
+## Liebe zum Detail I
 
 * Thematische Popups (z.b. 'VCS Operations')
 * ``Esc`` -> spring von überall zurück in den letzten aktiven Editor
@@ -214,28 +214,22 @@ Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 * Totale Navigation! ``Shift, Shift`` ``Strg+o`` / ``Strg+g`` / Goto ... / Quick ... 
 * Code Vervollständigung (zwei Stufen) / Autoimport / optimize imports
 * Quick Fix! ``Alt+Enter`` (über Fehler/Warnung/Intention) 
+
+---
+
+# Liebe zum Detail II
+
 * Toolfenster Navigation ist Toggle (z.B. Terminal)
-* Editfenster / Suchfenster / Commitffenster /Switcher auf Steroiden
+* Suchfenster / Commitffenster / Switcher auf Steroiden
 * Editfenster auf Steroiden (Annotations / Code Folding / Code Lens / Changes)
 * Suchen und Ersetzen Fenster auf Steroiden (mit Preview)
 * Verschiedene Darstellungsmodi (Presentation, Distraction Freee)
 
 **CamelCase / slug_case sensitive Suche und Filter**
 
-**STEROIDE**
-
-``Strg+Tab`` / ``Strg+E`` / ``Strg+k``
-
-
-**Und ich brauche an meiner Seite einen Pedanten mit Lexikonwissen, der mir beim Tippen hilft**
-
----
-
-## Liebe zum Detail Suchen / Finden / Navigation
-
 # Presenter Notes
 
-**SUCHE**
+**Beispiel CamelCase slug_case sensitive Suche**
 
 Suche1: monty-python.jpg -> mp
 
@@ -245,14 +239,17 @@ Optionen1: line numbers
 
 Optionen2: code folding
 
-
 ---
 
 ## Liebe zum Detail: Kontextabhängigket
 
+.fx: larger
+
+Viele Aktionen berücksichtigen, von wo aus sie ausgeführt werden und bieten dann an den Scope der Aktion auf den aktuellen Kontext zu beschränken.
+
 # Presenter Notes
 
-Beispiel: in Project Window Ordner auswählen und nur dessen Inhalte suchen, code inspizieren, Änderungen committen, tests starten,
+Beispiel: in Project Window einen Ordner auswählen und nur dessen Inhalte suchen, code inspizieren, Änderungen committen, tests starten
 
 ---
 
