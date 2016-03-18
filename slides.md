@@ -2,7 +2,12 @@
 
 ![lden](img/hackers-den.jpg)
 
+# Presenter Notes
+
+Versuch einer Erklärung, warum ich IDEs im Allgemeinen und PyCharm im Speziellen mag.
+
 ---
+
 
 # Meine Computersozialisation ...
 
@@ -200,8 +205,9 @@ Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 
 ---
 
-## Liebe zum Detail
+## Liebe zum Detail - Navigation
 
+* Thematische Popups (z.b. 'VCS Operations')
 * ``Esc`` -> spring von überall zurück in den letzten aktiven Editor
 * ``Alt+<-`` -> Navigate back
 * ``Alt, Alt`` -> Toolfensterknöpfe einblenden
@@ -216,23 +222,37 @@ Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 
 **CamelCase / slug_case sensitive Suche und Filter**
 
-# Presenter Notes
-
 **STEROIDE**
 
 ``Strg+Tab`` / ``Strg+E`` / ``Strg+k``
+
+
+**Und ich brauche an meiner Seite einen Pedanten mit Lexikonwissen, der mir beim Tippen hilft**
+
+---
+
+## Liebe zum Detail Suchen / Finden / Navigation
+
+# Presenter Notes
 
 **SUCHE**
 
 Suche1: monty-python.jpg -> mp
 
-Suche2: pycharm/wollmilchsa.jpg -> upy/wo
+Suche2: img/wollmilchsau.jpg -> i/wo
 
 Optionen1: line numbers
 
 Optionen2: code folding
 
-**Und ich brauche an meiner Seite einen Pedanten mit Lexikonwissen, der mir beim Tippen hilft**
+
+---
+
+## Liebe zum Detail: Kontextabhängigket
+
+# Presenter Notes
+
+Beispiel: in Project Window Ordner auswählen und nur dessen Inhalte suchen, code inspizieren, Änderungen committen, tests starten,
 
 ---
 
