@@ -213,6 +213,7 @@ Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 * ``Alt, Alt`` -> Toolfensterknöpfe einblenden
 * Totale Navigation! ``Shift, Shift`` ``Strg+o`` / ``Strg+g`` / Goto ... / Quick ... 
 * Code Vervollständigung (zwei Stufen) / Autoimport / optimize imports
+* Zwei Arten der Code Completion: einfügen und überschreiben
 * Quick Fix! ``Alt+Enter`` (über Fehler/Warnung/Intention) 
 
 ---
