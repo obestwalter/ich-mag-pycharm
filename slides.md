@@ -288,7 +288,7 @@ Beispiel: in Project Window einen Ordner auswählen und nur dessen Inhalte suche
 * Javascript / CoffeScript
 * CSS / SCSS / LESS
 * Jinja2 / Mako / Django Templates
-* SQL (alle gebrächlichen Dialekte)
+* SQL (alle gebräuchlichen Dialekte)
 * Markdown **(Multimarkdown)** / restructuredText / AsciiDoc
 
 **Alles geht irgendwie (Plugins oder Textmate bundles)**
