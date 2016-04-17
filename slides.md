@@ -272,7 +272,7 @@ Beispiel: in Project Window einen Ordner auswählen und nur dessen Inhalte suche
 * Vagrant
 * Docker
 * Bequemer Datenbankzugriff auf postgres, mysql, slite, ...
-* [uvm.](https://www.jetbrains.com/help/pycharm/5.0/languages-and-frameworks.html)
+* [uvm.](https://www.jetbrains.com/help/pycharm/2016.1/languages-and-frameworks.html)
 
 *(Teilweise nur Professional Edition)*
 
@@ -322,7 +322,7 @@ Beispiel: in Project Window einen Ordner auswählen und nur dessen Inhalte suche
 * Projektstruktur (source root, excludes, templates)
 * Mehrere Repositories in einem Projekt (synchronisierbare branches)
 * Zum Projekt gehörige Datenbanken im Projekt
-* [.idea](https://www.jetbrains.com/help/pycharm/5.0/project.html)
+* [.idea](https://www.jetbrains.com/help/pycharm/2016.1/project.html)
 * Terminal in Pycharm öffnet Pojektordner (gut mit [direnv](http://direnv.net/))
 * Strukturierungshilfen (Favoriten, Bookmarks, QuickLists)
 * TODOs werden gescannt und in eigenem Toolfenster angezeigt
