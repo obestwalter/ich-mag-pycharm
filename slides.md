@@ -216,7 +216,7 @@ Ja - und darüber hinaus zeichnet es sich noch aus durch ...
 * Code Vervollständigung (zwei Stufen) / Autoimport / optimize imports
 * Zwei Arten der Code Completion: einfügen und überschreiben
 * Quick Fix! ``Alt+Enter`` (über Fehler/Warnung/Intention) 
-
+* Code lens
 ---
 
 # Liebe zum Detail II
